@@ -1,0 +1,11 @@
+format = """
+$python[](fg:#ee99a0 bg:#363a4f)[$sudo](bg:#FFFFFF)[](fg:#363a4f bg:#8aadf4)[⚡](bg:#8aadf4	)[ ](fg:#8aadf4	)
+"""
+[sudo]
+disabled=false
+symbol = '🔑 '
+style= "bg:#363a4f	"
+[python]
+symbol=""
+style="bg:#ee99a0"
+format = '[[ [$symbol](fg:#FFCA22 bg:#ee99a0) ($version) ](fg:#181926	 bg:#ee99a0)]($style)'
